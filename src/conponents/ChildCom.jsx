@@ -37,7 +37,7 @@ const ChildCom = ({ chileHandler, removeHandler, initialData, itemId }) => {
 
   return (
     <div
-      className={`relative bg-gray-100 h-44 shadow border-b-4 border-dashed p-5 flex items-center justify-between transition-transform duration-200 ${isHovered ? 'scale-95' : ''}`}
+      className={`relative bg-white h-44 shadow border-b-4 border-dashed p-5 flex items-center justify-between transition-transform duration-200 ${isHovered ? 'scale-95' : ''}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
